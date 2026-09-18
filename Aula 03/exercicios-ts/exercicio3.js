@@ -1,7 +1,7 @@
 "use strict";
 let livro = {
     titulo: 'O Pequeno Príncipe',
-    autor: 'Antoine de Saint-Exupéry',
+    autor: 'Kauan o treinador',
     anoPublicacao: 1943
 };
 function exibirLivro(livro) {

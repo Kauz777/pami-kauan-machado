@@ -6,7 +6,7 @@ interface Livro {
 
 let livro: Livro = {
     titulo: 'O Pequeno Príncipe',
-    autor: 'Antoine de Saint-Exupéry',
+    autor: 'Kauan o treinador',
     anoPublicacao: 1943
 };
 
