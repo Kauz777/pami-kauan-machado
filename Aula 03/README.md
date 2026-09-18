@@ -1,64 +1,60 @@
-📚 Aula 03 — JavaScript & TypeScript
+📚 Aula 03 — JavaScript e TypeScript
 
-Exercícios e práticas da aula de JavaScript e TypeScript.
-
-⸻
-
-💻 Tecnologias
-
-<p align="center">
-  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black"/>
-  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white"/>
-</p>
+💻 Exercícios e práticas realizadas durante a Aula 03.
 
 ⸻
 
-📝 Conteúdo
+🟨 JavaScript
 
-Nesta aula foram trabalhados conceitos básicos de JavaScript e TypeScript, incluindo:
+Exercícios introdutórios utilizando JavaScript.
 
-Variáveis · Arrays · Tuplas · Union Types · Interfaces
+🔷 TypeScript
+
+Exercícios utilizando tipagem, arrays, tuplas, Union Types e interfaces.
 
 ⸻
 
-⚙️ Histórico do PowerShell
+💻 Histórico do PowerShell
+
+📌 Guia de execução
+
+Os comandos abaixo foram utilizados durante a aula para configurar o ambiente, verificar as versões instaladas, compilar o TypeScript e executar o arquivo JavaScript.
 
 <details>
-<summary>▶ Ver comandos utilizados</summary>
+<summary>🖥️ Clique para visualizar o histórico completo</summary>
 cd "C:\Users\Camargo\Desktop\Aula 03\exercícios-ts"
 npm install -g ts-node typescript
 ts-node --version
 tsc --version
 npm list -g typescript ts-node
 npm uninstall -g ts-node
+cd "C:\Users\Camargo\Desktop\Aula 03\exercicios-ts"
 tsc --ignoreConfig exercicio2.ts
 node exercicio2.js
 </details>
 
 ⸻
 
-🔄 Compilação
+🔄 Como funciona
 
-O TypeScript é compilado para JavaScript utilizando o tsc:
+📄 exercicio2.ts
+       ↓
+⚙️ tsc
+       ↓
+📄 exercicio2.js
+       ↓
+▶️ node
+       ↓
+💻 Resultado no PowerShell
 
-exercicio2.ts
-     │
-     ▼
-    tsc
-     │
-     ▼
-exercicio2.js
-     │
-     ▼
-    node
-     │
-     ▼
-  Resultado
+⸻
+
+📖 Conteúdos da aula
+
+JavaScript • TypeScript • Variáveis • Arrays • Tuplas • Union Types • Interfaces
 
 ⸻
 
 <p align="center">
-  <strong>📖 Aula 03 — PAMI</strong><br>
-  JavaScript & TypeScript
+  💻 <strong>Aula 03 — PAMI</strong> 📚
 </p>
